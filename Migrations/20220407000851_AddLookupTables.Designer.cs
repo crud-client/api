@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudClients.Migrations
 {
     [DbContext(typeof(ClientContext))]
-    [Migration("20220404004000_AddUniqueIndexesToLookupTables")]
-    partial class AddUniqueIndexesToLookupTables
+    [Migration("20220407000851_AddLookupTables")]
+    partial class AddLookupTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
